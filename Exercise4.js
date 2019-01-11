@@ -4,4 +4,4 @@
 
 FTEMP = parseInt(prompt ("Please enter temperature"))
 CTEMP = (FTEMP - 32) * 5 / 9
-console.log (CTEMP)
+console.log (FTEMP  + " degrees Farenheit equals " + CTEMP + " degrees in Celcius.")
