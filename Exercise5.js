@@ -4,4 +4,4 @@
 
 LOANAMT = parseInt(prompt ("Please enter outstanding loan amount"))
 NUMMONTHS = parseInt(prompt("Number of months to pay off loan"))
-console.log (LOANAMT/NUMMONTHS)
+console.log ("Your monthly payment will be " + "$" + LOANAMT/NUMMONTHS)
